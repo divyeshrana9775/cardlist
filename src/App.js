@@ -1,25 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Listitem from './components/listitems';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='contacts'>
+      <Listitem name="Mr.Whiskeron" phone="Phone : (212) 555-1324" email="divyeshrana9775@gmail.com" imgUrl="http://placekitten.com/g/200/300"/>
+      <Listitem name="Mr.Rayan" phone="Phone : (212) 555-1324" email="divyeshrana9775@gmail.com" imgUrl="http://placekitten.com/200/300"/>
     </div>
+    
+      
+    
   );
 }
 
