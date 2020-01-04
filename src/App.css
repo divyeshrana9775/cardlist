@@ -8,6 +8,19 @@
 .contacts.contactlist{
   align-items: center;
 }
+body{
+  background-color: hotpink;
+}
+.contactlist img{
+  height: 200px;
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  border: solid 5px goldenrod;
+}
+.contactlist:hover img {
+  transform: scale(1.2);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
